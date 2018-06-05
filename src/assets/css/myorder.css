@@ -1,0 +1,369 @@
+.my_order{
+	height: 100%;
+}
+.order_tyle{
+	height: 4rem; line-height: 4rem; font-size: 1.3rem; color: #333; background:#fff; border-bottom: 1px solid #ddd;
+	  position: fixed;    width: 100%;    top: 4.8rem; left: 0; z-index: 9999;
+}
+.order_tyle a{
+	width: 20%; float: left; display: block; text-align: center; height: 4rem;
+}
+.order_tyle_4 a{
+	width: 25%;
+}
+.order_tyle a.active{
+	border-bottom: 0.2rem solid #72a52c;  color: #72a52c;
+}
+.order_tyle a.more{
+	border-left: 0.1rem solid #ddd; border-bottom: 0.1rem solid #ddd;  color: #333; background: #f5f5f5;
+}
+.order_tyle a.more i{
+	width: 1.6rem; height: 1.6rem; display: inline-block; background: url(../../images/icons/down.png) no-repeat; background-size: 100%; position: relative; top: 0.5rem;
+}
+.order_list{
+	padding-top: 8.8rem; 
+}
+.order_list >li{
+	margin-top: 1rem; background: #fff; 
+}
+.head_info{
+	font-size: 1.3rem; color: #333; padding: 0 0 0 1rem;
+}
+.head_info .fl_l{
+	max-width: 82%;
+}
+.head_info .clearfix{
+	border-bottom: 1px solid #ddd; padding: 0.5rem 0;
+}
+.head_info .fl_l span{
+	color: #777977; margin-right: 1rem;
+}
+.head_info .fl_r{
+	padding-right: 1rem;
+}
+.head_info .fl_r em{
+	display: block; color: #72a52c;
+}
+.goods_list{
+	padding: 0 1rem;     font-size: 1.3rem;
+}
+.goods_list li {
+	position: relative; border-bottom: 1px dashed #ddd; padding: 1rem 0 1rem 0;
+}
+.goods_list li img{
+	 width: 5rem; height: 5rem; padding: 0.5rem; border: 1px solid #ddd; float: left; margin-right: 1rem;
+}
+.goods_list li .fl_l{
+	width: 80%;
+}
+.goods_list li .good_name{
+	font-size: 1.4rem; color: #333; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 1.5rem;
+}
+.goods_list li .good_name span{
+	color: #72a52c;
+}
+.goods_list li p{
+	line-height: 1;
+}
+.goods_list .fl_r{
+	color: #333;
+}
+.goods_list .fl_r em{
+	display: block; margin-top: 1.8rem;
+}
+.order_money{
+	color: #777977; font-size: 1.2rem; padding: 0.6rem 1rem; border-bottom: 1px solid #ddd;
+}
+.order_money .fl_r{
+	color: #333; text-align: right;
+}
+.order_money .fl_r span{
+	display: block;
+}
+.order_money em{
+	color: #72a52c;
+}
+.order_btns{
+	text-align: center; height: 3rem; line-height: 3rem; color: #333; font-size: 0;
+}
+.order_btns a{
+	width: 50%; display: inline-block;  font-size: 1.4rem;
+}
+.order_btns_3  a{
+	width: 33.33%;
+}
+.order_btns_4  a{
+	width: 25%;
+}
+.order_btns a i{
+	width: 1.6rem; height: 1.6rem; display: inline-block;  position: relative; top: 0.4rem;  margin-right: 0.5rem;
+}
+.order_btns a .icon_received{
+	background:url(../../images/icons/received.png) no-repeat; background-size: 100%;
+}
+.order_btns a .icon_cancel{
+	background:url(../../images/icons/cancel.png) no-repeat; background-size: 100%;
+}
+.order_btns a .icon_wuliu{
+	background:url(../../images/icons/wuliu.png) no-repeat; background-size: 100%;
+}
+.order_btns a .icon_delete{
+	background:url(../../images/icons/delete.png) no-repeat; background-size: 100%;
+}
+.order_btns a .icon_deliver{
+	background:url(../../images/icons/deliver.png) no-repeat; background-size: 100%;
+}
+.order_btns a .icon_pay{
+	background:url(../../images/icons/pay.png) no-repeat; background-size: 100%;
+}
+.message{
+	width: 100%; height: 4rem; line-height: 4rem; text-align: center; font-size: 1.4rem; display: none;
+}
+.message.active{
+display: block;
+}
+.reason{
+    width: 100%;
+    height: 3.2rem;
+    border: 1px solid #ddd;
+    padding-left: 8px;
+    box-sizing: border-box!important;
+    color: #777977;
+}
+.submitter{
+	padding: 1rem; background: #f5f5f5; color: #333;
+}
+.submitter .fl_r{
+	color: #72a52c;
+}
+.submitter i{
+	width: 16px; height: 16px; float: left; margin-right: 0.5rem; border: 1px solid #72a52c; background: url(../../images/icons/head.png) no-repeat; background-size: 80%; background-position: center; border-radius: 50%; display: inline-block;
+}
+.order_info_list{
+	padding: 1rem 0 1rem 1rem; border-bottom: 1px solid #ddd;
+}
+.order_info_list li{
+	padding: 0.5rem 0 0.5rem 5rem; position: relative; color: #777977;
+}
+.order_info_list li .title_span{
+	position: absolute; left: 0; color: #333;
+}
+.order_info_list li strong{
+	font-weight: normal;
+}
+.order_info_list li strong.green{
+	color: #72a52c;
+}
+.batch_delivery{
+	height: 5rem; padding: 1rem; position: fixed; background:#fff; bottom: 0; left: 0; width: 100%; border-top: 1px solid #ddd;
+}
+.batch_delivery .delivery_btn{
+	display: block; float: right; border: 0; width: 6.6rem; font-size: 1.3rem; text-align: center; line-height: 3rem; background:#ccc; color: #fff; border-radius: 0.4rem;
+}
+.batch_delivery .delivery_btn.active{
+	background: #72a52c;
+}
+.batch_delivery label{
+	float: left; position: relative; top: 0.5rem;
+}
+.batch_delivery label input[type='checkbox']{
+	position: relative; top: 0.25rem; margin-right: 0.5rem;
+}
+
+.more_ul{
+	width: 20%; position: absolute; top: 4rem; right: 0; background: #f5f5f5; border-left: 1px solid #ddd; display: none;
+}
+.more_ul li{
+	width: 100%;
+}
+.more_ul a{
+	width: 100%; display: block; height: 3rem; line-height: 3rem;border-bottom: 1px solid #ddd;
+}
+
+.cancellation{
+	width: 100%; background: #fff; padding-top: 4.8rem;
+}
+.cancellation h2{
+	width: 100%; font-size: 1.6rem; height: 4rem; line-height: 4rem; color: #72a52c; font-weight: 700; padding-left: 1rem; border-bottom: 1px solid #ddd;
+}
+.cancellation_ul{
+	padding: 0.5rem 1rem 0 1rem;
+}
+.cancellation_ul li{
+	color: #777977; line-height: 2.4rem; padding-left: 4rem; position: relative; font-size: 1.4rem;
+}
+.cancellation_ul li .title_span{
+	position: absolute; left: 0; color: #333;
+}
+.cancellation_ul li:last-child{
+	border-bottom: 1px solid #ddd;
+}
+.cancellation_btn{
+	 padding: 1rem;
+}
+.cancellation_btn a{
+	float: right; height: 4rem; line-height: 4rem; font-size: 1.6rem; width: 10rem; background: #72a52c; color: #fff; display: block; border-radius: 0.4rem; text-align: center; 
+}
+
+.agent{
+	width: 100%; background: #fff; padding-top: 4.8rem; height: 100%;
+}
+.user_info{
+	padding: 0.5rem 1rem 0 1rem;
+}
+.user_info li{
+	color: #777977; line-height: 2.4rem; padding-left: 6rem; position: relative; font-size: 1.4rem;
+}
+.user_info li .title_span{
+	position: absolute; left: 0; color: #333;
+}
+
+.agent_info{
+	border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 1rem 0; padding-left: 4rem;
+}
+.agent_info li{
+	position: relative; padding: 0.5rem 0 0.5rem 1rem;
+}
+.agent_info li >div{
+	background: #f5f5f5; color: #777977; width: 90%; border-radius: 0.4rem; padding: 1rem; font-size: 1.3rem;
+}
+.agent_ul li:first-child >div{
+	background: #4d535e; color: #fff;
+}
+.agent_ul{
+	border-left: 1px solid #ddd; padding: 0.5rem 0;
+}
+.agent_ul li i{
+	width: 0.8rem; height: 0.8rem; display: block; background: #f5f5f5; border-radius: 50%; position: absolute; left: -0.4rem; top: 0.8rem;
+}
+.agent_ul li:first-child i{
+	background: #4d535e; 
+}
+.agent_ul .time{
+	font-size: 1.2rem; padding: 0.2rem 0;
+}
+.agent .submit_btn{
+	height: 4rem; line-height: 4rem;  font-size: 1.6rem; width: 15rem; background: #72a52c; color: #fff; display: block; margin: 0 auto; border-radius: 0.4rem; text-align: center; 
+}
+
+.upgrading{
+	min-height: 100%; background: #fff; padding: 6rem 1rem 1rem 1rem; color: #333;
+}
+.upgrading_li{
+	padding-left: 6rem; position: relative; margin-bottom: 1rem;
+}
+.upgrading_li .title_span {
+	position: absolute; left: 0; font-size: 1.4rem; display: block; height: 3rem; line-height: 3rem; top: 0;
+}
+.upgrading_li select,.upgrading_li input[type='text']{
+	width: 100%; height: 3rem; border:1px solid #ddd; text-indent: 1rem; border-radius: 0.4rem;
+}
+.upgrading .submit_btn{
+	border: 0; height: 4rem; font-size: 1.6rem; line-height: 4rem; width: 100%; background: #72a52c; color: #fff; display: block; border-radius: 0.4rem; text-align: center; 
+}
+.btn_wrap{
+	margin-top: 4rem;
+}
+.upgrading .tips{
+	background: #fff4d3; border: 1px solid #ffd5bd; color: #333; padding: 1rem; margin: 1rem 0;
+}
+
+.upload_idcard{
+	border: 3px dotted #ddd; padding: 2rem; text-align: center;
+}
+.upload_idcard p{
+	font-size: 1.4rem; color: #333; 
+}
+.upload_idcard p em{
+	color: #f00;
+}
+.upload_wrap span{
+	font-size: 1.4rem; color: #333; display: block; margin-bottom: 0.5rem;
+}
+.upload_idcard .upload_btn {
+	padding: 0.3rem 0;
+	display: inline-table;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+}
+.upload_idcard .upload_btn input {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 100px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#id_card_hand_img{
+	display: block; width: 50%; margin: 0 auto;
+}
+.shipment{
+	min-height: 100%; background: #eee; padding: 4.8rem 0 1rem; 
+}
+.shipment_4{
+	padding-top: 8.8rem;
+}
+.shipment_form{
+	font-size: 1.4rem; color: #333; background: #fff; padding: 1rem;
+} 
+.shipment_form input[type='text']{
+	width: 7rem; border: 1px solid #ddd; padding-left: 0.4rem; height: 2rem; margin-left: 0.3rem; border-radius: 0; position: relative; top: -0.3rem;
+}
+.shipment_form .submit_btn{
+	border: 0; height: 2rem; font-size: 1.4rem; text-align: center; display: inline-block;  width: 6rem; background: #72a52c; color: #fff;  border-radius: 0;
+}
+.no_record{
+	text-align: center;  padding-top: 10rem;
+}
+.no_record p{
+	font-size: 1.6rem; color: #333; margin-top: 1rem;
+}
+.shipment .order_list{
+	padding-top: 0;
+}
+.msg_ul{
+	background: #fff; padding-top: 6rem; min-height: 100%;
+}
+.msg_ul li{
+	font-size: 1.4rem; color: #777977; padding: 0 1rem;
+}
+.msg_ul li a{
+	display: block; width: 100%; padding: 0.5rem 0; border-bottom: 1px solid #ddd;
+}
+.msg_ul li h2{
+	color: #333; font-weight: 700; font-size: 1.4rem;
+}
+.msg_ul li small{
+	float: right; font-weight: normal; font-size: 1.2rem;
+}
+.msg_ul li p{
+	width: 100%; 
+}
+.express_type{
+	padding: 1rem 0.5rem;   border-bottom: 1px solid #ddd;
+}
+.express_type .rel{
+	position: relative; 
+}
+.express_type span{
+	color: #333; font-size: 1.4rem; position: absolute; width: 20%; left: 0; top: 0; line-height: 2.4rem;
+}
+.express_type select{
+	width: 19%; color: #777977; border: 1px solid #ddd; font-size: 1.4rem; height: 2.4rem; 
+	position: absolute; left: 20%; top: 0;
+
+}
+.express_type input[type='text']{
+	border: 1px solid #ddd; height: 2.4rem; padding-left: 1rem; width: 100%; 
+}
+.express_type input.express_number{
+	width: 60%; float: right; 
+}
+.express_type .remark{
+	margin-top: 1rem;
+}
+
+.padding_5{
+	padding-top: 4.8rem;
+}
